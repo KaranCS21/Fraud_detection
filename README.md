@@ -19,7 +19,7 @@ This project aims to build a machine learning model for detecting fraudulent cre
 This project is based on a dataset containing credit card transaction records, where the goal is to predict whether a transaction is fraudulent or not. Class imbalance is handled using the SMOTE technique, and the XGBoost algorithm is used for classification.
 
 ## Project Structure
-CreditCardFraudDetection/
+```CreditCardFraudDetection/
 │
 ├── data/
 │   ├── raw_data.csv              # Original dataset (not uploaded due to size)

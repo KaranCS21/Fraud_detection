@@ -1,5 +1,5 @@
 # Credit Card Fraud Detection
-
+## Project Overview
 This project aims to build a machine learning model for detecting fraudulent credit card transactions using the XGBoost algorithm. It applies data preprocessing techniques like SMOTE (Synthetic Minority Oversampling Technique), scaling, and PCA (Principal Component Analysis) to handle class imbalance, feature scaling, and dimensionality reduction.
 
 ## Table of Contents
@@ -15,8 +15,20 @@ This project aims to build a machine learning model for detecting fraudulent cre
 - [Future Enhancements](#future-enhancements)
 - [License](#license)
 
-## Project Overview
-This project is based on a dataset containing credit card transaction records, where the goal is to predict whether a transaction is fraudulent or not. Class imbalance is handled using the SMOTE technique, and the XGBoost algorithm is used for classification.
+## Large Data Files
+
+Due to file size restrictions on GitHub, the large files (e.g., the raw dataset and saved models) are not included in this repository. You can download these files from the following links:
+
+- **[Raw Data](https://drive.google.com/your-link-here)**: Download `raw_data.csv`
+- **[Preprocessed Data](https://drive.google.com/your-link-here)**: Download `processed_data.csv`
+- **[Trained XGBoost Model](https://drive.google.com/your-link-here)**: Download `xgboost_model.pkl`
+
+Please download and place these files in the appropriate folders before running the code:
+1. `raw_data.csv` should go into the `data/` folder.
+2. `processed_data.csv` should go into the `data/` folder.
+3. `xgboost_model.pkl` should go into the `models/` folder.
+
+
 
 ## Project Structure
 ```CreditCardFraudDetection/
@@ -55,10 +67,10 @@ This project is based on a dataset containing credit card transaction records, w
    git clone https://github.com/yourusername/Fraud-detection.git
    cd Credit-Card-Fraud-Detection
 
-Install the necessary dependencies:
-```bash
-  pip install -r requirements.txt
-```
+2. Install the necessary dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 
 ## Usage

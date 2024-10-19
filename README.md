@@ -42,7 +42,8 @@ This project is based on a dataset containing credit card transaction records, w
 │   ├── evaluate_model.py         # Evaluates the model on the test set
 │   ├── feature_engineering.py    # Visualizes feature importance and other feature relationships
 │
-└── README.md                     # Project documentation and instructions ```
+└── README.md                     # Project documentation and instructions
+```
 
 
 

@@ -76,17 +76,21 @@ Please download and place these files in the appropriate folders before running 
 ## Usage
 
 Preprocess the data:
+```bash
 python scripts/preprocess.py
-
+```
 Train the XGBoost model:
+```bash
 python scripts/train_model.py
-
+```
 Evaluate the model:
+```bash
 python scripts/evaluate_model.py
-
+```
 Visualize feature importance:
+```bash
 python scripts/feature_engineering.py
-
+```
 
 ## Model Evaluation
 The XGBoost model achieves high accuracy, precision, and recall, particularly for detecting fraudulent transactions. Key metrics include:

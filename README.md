@@ -19,24 +19,31 @@ This project aims to build a machine learning model for detecting fraudulent cre
 This project is based on a dataset containing credit card transaction records, where the goal is to predict whether a transaction is fraudulent or not. Class imbalance is handled using the SMOTE technique, and the XGBoost algorithm is used for classification.
 
 ## Project Structure
-CreditCardFraudDetection/ 
+CreditCardFraudDetection/
+│
 ├── data/
-├── raw_data.csv # Original dataset 
-├── processed_data.csv # Preprocessed data (after scaling, PCA, etc.) 
-├── models/ 
-├── xgboost_model.pkl # Saved XGBoost model 
-├── visualizations/ 
-├── correlation_matrix.png # Correlation matrix visualization 
-├── pairplot.png # Pairplot visualization 
-├── feature_importance.png # Feature importance visualization 
-├── notebooks/ 
-├── eda.ipynb # Exploratory Data Analysis (EDA) notebook
-├── scripts/ 
-├── preprocess.py # Handles data preprocessing (SMOTE, scaling, PCA) 
-├── train_model.py # Trains the XGBoost model and saves it as a .pkl file 
-├── evaluate_model.py # Evaluates the model on the test set 
-├── feature_engineering.py # Visualizes feature importance and other feature relationships 
-└── README.md # Project documentation and instructions
+│   ├── raw_data.csv              # Original dataset (not uploaded due to size)
+│   ├── processed_data.csv        # Preprocessed data (after scaling, PCA, etc.)
+│
+├── models/
+│   ├── xgboost_model.pkl         # Saved XGBoost model
+│
+├── visualizations/
+│   ├── correlation_matrix.png    # Correlation matrix visualization
+│   ├── pairplot.png              # Pairplot visualization
+│   ├── feature_importance.png    # Feature importance visualization
+│
+├── notebooks/
+│   ├── eda.ipynb                 # Exploratory Data Analysis (EDA) notebook
+│
+├── scripts/
+│   ├── preprocess.py             # Handles data preprocessing (SMOTE, scaling, PCA)
+│   ├── train_model.py            # Trains the XGBoost model and saves it as a .pkl file
+│   ├── evaluate_model.py         # Evaluates the model on the test set
+│   ├── feature_engineering.py    # Visualizes feature importance and other feature relationships
+│
+└── README.md                     # Project documentation and instructions
+
 
 
 

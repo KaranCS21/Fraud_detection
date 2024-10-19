@@ -117,12 +117,12 @@ Pairplot of features
 
 
 ## Technologies
-Python
-XGBoost
-SMOTE (imbalanced-learn)
-PCA (scikit-learn)
-Pandas, NumPy
-Seaborn, Matplotlib
+- Python
+- XGBoost
+- SMOTE (imbalanced-learn)
+- PCA (scikit-learn)
+- Pandas, NumPy
+- Seaborn, Matplotlib
 
 
 ## Future Enhancements

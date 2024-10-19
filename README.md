@@ -56,8 +56,8 @@ This project is based on a dataset containing credit card transaction records, w
    cd Credit-Card-Fraud-Detection
 
 Install the necessary dependencies:
-```bash
-pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
 
 
 ## Usage

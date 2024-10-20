@@ -19,8 +19,8 @@ This project aims to build a machine learning model for detecting fraudulent cre
 
 Due to file size restrictions on GitHub, the large files (e.g., the raw dataset and saved models) are not included in this repository. You can download these files from the following links:
 
-- **[Raw Data]((https://drive.google.com/file/d/1Xid8J56vf-VNbl1ha6CAjOtNpOtgBMZo/view?usp=sharing))**: Download `raw_data.csv`
-- **[Preprocessed Data]((https://drive.google.com/file/d/13wCrA22goBQi_rjVH1K_dVWdZ3bEzJYR/view?usp=sharing))**: Download `processed_data.csv`
+- **[Raw Data](https://drive.google.com/file/d/1Xid8J56vf-VNbl1ha6CAjOtNpOtgBMZo/view?usp=sharing)**: Download `raw_data.csv`
+- **[Preprocessed Data]((https://drive.google.com/file/d/13wCrA22goBQi_rjVH1K_dVWdZ3bEzJYR/view?usp=sharing)**: Download `processed_data.csv`
 - **[Trained XGBoost Model](https://drive.google.com/drive/folders/1RnKjm0teBD9EpKhFIRlMmpDCoj-1qq9F?usp=sharing)**: Download `xgboost_model.pkl`
 
 Please download and place these files in the appropriate folders before running the code:

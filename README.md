@@ -124,6 +124,9 @@ Pairplot of features
 - Pandas, NumPy
 - Seaborn, Matplotlib
 
+## License
+This project is licensed under the [MIT License](./LICENSE). This license allows others to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the project, under the condition that the original creators are credited for their work. For more details, please refer to the LICENSE file in the repository.
+
 
 ## Future Enhancements
 Cost-Sensitive Learning: Apply cost-sensitive learning to prioritize the identification of fraudulent transactions.
